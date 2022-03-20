@@ -6,11 +6,12 @@ export const databaseprovider = ({
     useFactoty:async () => {
         await createConnection({
             type: 'postgres',
-            database: 'rawad',
+            database: 'zdxudntd',
             entities: ['dist/src/**/*.entity.ts'],
-            username: 'rawad',
-            password: 'test',
+            username: 'zdxudntd',
+            password: 'ZS_BXkdYo7JniTZJxcZB7uvTNoPOBQM-',
             port: 5432,
+            host: 'abul.db.elephantsql.com',
             synchronize: true,
 
         })
